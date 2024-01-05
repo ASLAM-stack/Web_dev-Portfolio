@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 /*Font url*/
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
@@ -52,13 +53,17 @@ nav a
 }
 .header
 {
-    background-color: #b96d37;
+    background-color: #fff8f3;
+    background-image: url(../img/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }  
 .banner
 {
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .profile-pic
 {
@@ -66,5 +71,48 @@ nav a
 }
 .banner-content
 {
-    
+    max-width: 500px;
+}
+.banner-greeting
+{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+}
+.banner-title
+{
+    font-size: 85px;
+    font-weight: 700;
+    color: #181818;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.banner-discription
+{
+    margin-bottom: 20px;
+}
+.btn-download
+{
+    margin-right: 30px;
+}
+.about
+{
+    border-radius: 10px;
+    padding: 130px;
+    background: #FFF8F3;
+    margin: 130px 0;
+}
+.section-title
+{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.section-discription
+{
+    color:#757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
 }
