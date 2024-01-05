@@ -11,6 +11,7 @@ nav
     display: flex;
     align-items: center;
     justify-content: space-around;
+    margin: 0 200px;
 }
 .logo
 {
@@ -48,4 +49,22 @@ nav a
     text-align: center;
     color:white;
     padding: 15px 35px;
+}
+.header
+{
+    background-color: #b96d37;
+}  
+.banner
+{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.profile-pic
+{
+    width: 500px;
+}
+.banner-content
+{
+    
 }
