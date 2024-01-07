@@ -54,9 +54,10 @@ nav a
 .header
 {
     background-color: #fff8f3;
-    background-image: url(../img/header_bg.png);
+    background-image: url('../img/header_bg.png'), url('../img/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right,top left;
+    background-size: auto auto,100px 666px;
 }  
 .banner
 {
@@ -287,4 +288,7 @@ input[type="submit"]
     text-align: center;
     color:white;
     padding: 15px 35px;
+}
+i{
+    color: white;
 }
