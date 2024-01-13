@@ -152,7 +152,7 @@ main section
 }
 #what-i-do-discription
 {
-    padding: 30px 150px !important;
+    padding: 30px 150px;
 }
 .skill-container
 {
@@ -291,4 +291,58 @@ input[type="submit"]
 }
 i{
     color: white;
+}
+/* responsive css */
+/* mobile */
+@media screen and (max-width:576px) {
+    .skill-container, .resume-container, .foonter-container, .about-info_container, nav, nav > ul, .banner
+    {
+        flex-direction: column;
+    }
+    #what-i-do-discription, .banner, .resume-column, footer
+    {
+        padding: 20px;
+    }
+    input[type="text"], input[type="email"], textarea
+    {
+        width: 365px;
+    }
+    input[type="submit"]
+    {
+        margin: 0 auto;
+    }
+    .footer-column
+    {
+        width: 100%;
+    }
+    .socia-link
+    {
+        width: 114px;
+        padding: 0;
+        margin: 0 auto;
+    }
+    .about
+    {
+        padding: 20px;
+    }
+    .about .section-discription
+    {
+        padding: 10px;
+    }
+    nav{
+        margin: 0;
+    }
+    .banner{
+        padding-bottom: 0;
+    }
+    .profile-pic 
+    {
+        width: 100%;
+    }
+}
+@media screen and (min-width:576px) and (max-width:960px) {
+    footer
+    {
+        padding: 30px;
+    }
 }
